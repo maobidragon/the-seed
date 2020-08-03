@@ -407,8 +407,8 @@ async def system(ctx,*args):
 
 try:
     loop = asyncio.get_event_loop()
-    loop.create_task(cardinal.start("NzI0ODg0ODg3NjgwNzEyNzc1.XvGrqA.RGh-mxmftbTDygr4o1czeibdI-U"))
-    loop.create_task(crystaln.start("NzM3MzMzMjI5MzU0MjIxNjc4.Xx71FA.nAeUCJeR7WGBgII7v_tOtDFp-Jc"))
+    loop.create_task(cardinal.start("我才不告訴你勒"))
+    loop.create_task(crystaln.start("我才不告訴你勒"))
     loop.run_forever()
 except KeyboardInterrupt:
     loop.close()
