@@ -4,7 +4,10 @@ import discord
 from discord.ext import commands
 import asyncio
 import random
-from PIL import Image, ImageFont, ImageDraw
+import requests
+from PIL import Image, ImageFont, ImageDraw,ImageOps
+from io import BytesIO
+import re
 cardinal = commands.Bot(command_prefix="SAO ")
 crystaln = commands.Bot(command_prefix="NPCC ")
 cardinal.remove_command('help')
@@ -41,13 +44,90 @@ async def _LINK_START(ctx, a:str): #驗證
 async def go(ctx):
     await ctx.send("待寫完")
 @cardinal.command()
-async def test(ctx):
-    await ctx.send('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\na')
+async def info(ctx, user:discord.User):
+    try:
+        response = requests.get(user.avatar_url)
+        img = Image.open(BytesIO(response.content), 'r')
+        img=img.resize((144, 144))
+        name=base.username(user.id)
+        chinese=ImageFont.truetype('msyh.ttc',28)
+        saofont=ImageFont.truetype('SAOUITT-Regular.ttf',28)
+        background = Image.open('test.png', 'r')
+        draw=ImageDraw.Draw(background)
+        pdata=[f'{base.hp(user.id)}/{base.hplimit(user.id)}',f'{base.atk(user.id)+base.wpnatk(user.id)}(+{base.wpnatk(user.id)})',f'{base.accy(user.id)+base.wpnaccy(user.id)}(+{base.wpnaccy(user.id)})',f'{base.def_(user.id)}',f'{base.money(user.id)}',f'{base.killc(user.id)}']
+        chinesew=""
+        for n in re.findall(r'[\u4e00-\u9fff]+', name):
+            chinesew+=n
+        if chinesew=="": 
+            draw.text((185,75),name,font=saofont,fill="white")
+        else: 
+            draw.text((185,75),name,font=chinese,fill="white")
+        draw.text((280,115),f"{base.level(user.id)}",font=saofont,fill="white") #level
+        draw.text((100,250),pdata[0],font=saofont,fill="white") #hp
+        draw.text((100,290),pdata[1],font=saofont,fill="white") #atk
+        draw.text((100,330),pdata[2],font=saofont,fill="white") #accy
+        draw.text((100,370),pdata[3],font=saofont,fill="white") #def
+        draw.text((100,410),pdata[4],font=saofont,fill="white") #cor(money)
+        draw.text((100,450),pdata[5],font=saofont,fill="white") #kill count
+        wanted=base.exp(user.id)
+        if wanted > 0:
+            im=Image.open('bar.png','r') 
+            offset = (481,10)
+            im=im.resize((20,wanted))
+            background.paste(im, offset)   
+        offset = (19,22)
+        background.paste(img, offset)
+        background.save('get.png')
+        await ctx.send(file=discord.File('get.png'))
+    except Exception as e:
+        error=str(e)
+        print(error)
+        if error.__contains__("cannot identify image file") ==True:
+            await ctx.send("我勸你換個頭貼吧")
+        elif error.__contains__("User") == True and error.__contains__("not found") == True or error=="'NoneType' object is not subscriptable":
+            await ctx.send("\❗此玩家不存在\❗")
+        
+@info.error
+async def info_on_error(ctx,error):
+    await ctx.send(error)
+    response = requests.get(ctx.author.avatar_url)
+    img = Image.open(BytesIO(response.content), 'r')
+    img=img.resize((144, 144))
+    name=base.username(ctx.author.id)
+    chinese=ImageFont.truetype('msyh.ttc',28)
+    saofont=ImageFont.truetype('SAOUITT-Regular.ttf',28)
+    background = Image.open('test.png', 'r')
+    draw=ImageDraw.Draw(background)
+    pdata=[f'{base.hp(ctx.author.id)}/{base.hplimit(ctx.author.id)}',f'{base.atk(ctx.author.id)+base.wpnatk(ctx.author.id)}(+{base.wpnatk(ctx.author.id)})',f'{base.accy(ctx.author.id)+base.wpnaccy(ctx.author.id)}(+{base.wpnaccy(ctx.author.id)})',f'{base.def_(ctx.author.id)}',f'{base.money(ctx.author.id)}',f'{base.killc(ctx.author.id)}']
+    chinesew=""
+    for n in re.findall(r'[\u4e00-\u9fff]+', name):
+        chinesew+=n
+    if chinesew=="": 
+        draw.text((185,75),name,font=saofont,fill="white")
+    else: 
+        draw.text((185,75),name,font=chinese,fill="white")
+    draw.text((250,120),f"{base.level(ctx.author.id)}",font=saofont,fill="white") #level
+    draw.text((100,250),pdata[0],font=saofont,fill="white") #hp
+    draw.text((100,290),pdata[1],font=saofont,fill="white") #atk
+    draw.text((100,330),pdata[2],font=saofont,fill="white") #accy
+    draw.text((100,370),pdata[3],font=saofont,fill="white") #def
+    draw.text((100,410),pdata[4],font=saofont,fill="white") #cor(money)
+    draw.text((100,450),pdata[5],font=saofont,fill="white") #kill count
+    wanted=base.exp(ctx.author.id)
+    if wanted > 0:
+        im=Image.open('bar.png','r') 
+        offset = (482,18)
+        im=im.resize((18,wanted))
+        background.paste(im, offset)   
+    offset = (19,22)
+    background.paste(img, offset)
+    background.save('get.png')
+    await ctx.send(file=discord.File('get.png'))
 @cardinal.command()
 async def createGuild(ctx, arg):
     bugReport=cardinal.get_channel(733659457849917531)
     guild=base.guild(ctx.author.id)
-    if guild == None:
+    if guild == None: #anti double guild
         try:
             db=sqlite3.connect('user.sqlite')
             cursor=db.cursor()
@@ -158,53 +238,53 @@ async def duel(ctx,user: discord.User):
     db.commit()
 @cardinal.command()
 async def attack(ctx, arg, user: discord.User):
-    userr=ctx.message.author
-    role = discord.utils.get(ctx.guild.roles, name="黃名")
-    await userr.add_roles(role)
-    role = discord.utils.get(ctx.guild.roles, name='綠名')
-    await userr.remove_roles(role)
-    db=sqlite3.connect('user.sqlite')
-    c=db.cursor()
-    wpn=base.wpn(ctx.author.id)
-    ctxhp=base.hp(ctx.author.id)
-    auhp=base.hp(user.id)
-    ctxatk=random.randint(base.atk(ctx.author.id)+base.wpnatk(ctx.author.id)-20,base.atk(ctx.author.id)+base.wpnatk(ctx.author.id)+20)
-    ctxdef=random.randint(base.def_(ctx.author.id)-15,base.def_(ctx.author.id)+15)
-    audef=random.randint(base.def_(user.id)-15,base.def_(user.id)+15)
-    ctxaccy=base.accy(ctx.author.id)+base.wpnaccy(ctx.author.id)
-    db=sqlite3.connect('user.sqlite')
-    c=db.cursor()
-    combo=base.combo(ctx.author.id)
-    if combo == None:
-        c.execute("UPDATE user SET combo=? WHERE user_id=?",(1, ctx.author.id))
+    if base.position(ctx.author.id) != "起始之鎮":
+        userr=ctx.message.author
+        role = discord.utils.get(ctx.guild.roles, name="黃名")
+        await userr.add_roles(role)
+        role = discord.utils.get(ctx.guild.roles, name='綠名')
+        await userr.remove_roles(role)
+        db=sqlite3.connect('user.sqlite')
+        c=db.cursor()
+        wpn=base.wpn(ctx.author.id)
+        ctxhp=base.hp(ctx.author.id)
+        auhp=base.hp(user.id)
+        ctxatk=random.randint(base.atk(ctx.author.id)+base.wpnatk(ctx.author.id)-20,base.atk(ctx.author.id)+base.wpnatk(ctx.author.id)+20)
+        ctxdef=random.randint(base.def_(ctx.author.id)-15,base.def_(ctx.author.id)+15)
+        audef=random.randint(base.def_(user.id)-15,base.def_(user.id)+15)
+        ctxaccy=base.accy(ctx.author.id)+base.wpnaccy(ctx.author.id)
+        db=sqlite3.connect('user.sqlite')
+        c=db.cursor()
+        combo=base.combo(ctx.author.id)
+        if combo == None:
+            c.execute("UPDATE user SET combo=? WHERE user_id=?",(1, ctx.author.id))
+            db.commit()
+            combo=base.combo(ctx.author.id)
+        c.execute("UPDATE user SET combowait=? WHERE user_id=?",(1, ctx.author.id))
         db.commit()
-        combo=base.combo(ctx.author.id)
-    def check(m):
-        return m.content.__contains__('SAO attack') and m.author == ctx.author.id
-    try:
-        msg = await cardinal.wait_for('message',timeout=1, check=check)
-        combo=base.combo(ctx.author.id)
-        c.execute("UPDATE user SET combo=? WHERE user_id=?",(combo+1, ctx.author.id))
-        db.commit()
-        combo=base.combo(ctx.author.id)
-    except asyncio.TimeoutError:
-        c.execute("UPDATE user SET combo=? WHERE user_id=?",(0, ctx.author.id))
-        db.commit()
-        combo=base.combo(ctx.author.id)
-    idk=random.randint(1, 100)
-    if arg == "test":
-        if ctxatk-audef > 0 and combo < 3 and idk < ctxaccy:
-            await ctx.send(f"{combo}連擊!\n你對{user.display_name}造成了{ctxatk-audef}點傷害")
-            c.execute("UPDATE user SET hp=? WHERE user_id=?",(auhp-ctxatk-audef, ctx.author.id))
-        elif ctxatk-audef>0 and combo >= 3 and idk < ctxaccy:
-            await ctx.send(f"{combo}連擊!\n你對{user.display_name}造成了{ctxatk-audef}點傷害")
-            c.execute("UPDATE user SET hp=? WHERE user_id=?",(auhp-ctxatk-audef, ctx.author.id))
-        elif ctxatk-audef<0:
-            await ctx.send(f"{user.display_name}擋住了!")
-        elif idk > ctxaccy:
-            await ctx.send(f"{ctx.author.display_name}眼殘打不中")
+        await asyncio.sleep(1)
+        c.execute("UPDATE user SET combowait=? WHERE user_id=?",(0, ctx.author.id))
+        db.commit()    
+        idk=random.randint(1, 100)
+        if arg == "test":
+            if ctxatk-audef > 0 and idk < ctxaccy:
+                await ctx.send(f"{combo}連擊!\n你對{user.display_name}造成了{ctxatk-audef}點傷害")
+                c.execute("UPDATE user SET hp=? WHERE user_id=?",(auhp-ctxatk-audef, user.id))
+                db.commit()
+                hp=base.hp(user.id)
+                if hp <=0:
+                    role = discord.utils.get(ctx.guild.roles, name="紅名")
+                    await userr.add_roles(role)
+                    role = discord.utils.get(ctx.guild.roles, name='黃名')
+                    await userr.remove_roles(role)
+            elif ctxatk-audef<0:
+                await ctx.send(f"{user.display_name}擋住了!")
+            elif idk > ctxaccy:
+                await ctx.send(f"{ctx.author.display_name}眼殘打不中")
+        else:
+            await ctx.send("戰鬥系統測試中")
     else:
-        await ctx.send("戰鬥系統測試中")
+        await ctx.send("想在圈内殺人要問毛筆龍，若許可就可以圈内殺人了:)")
     db.commit()
 @cardinal.command()
 async def shop(ctx):
@@ -323,7 +403,7 @@ async def buy(ctx,d):
     else:
         await ctx.send("沒珂爾還敢來,你真是勇敢")
 @cardinal.command()
-async def info(ctx, user:discord.User):
+async def infotext(ctx, user:discord.User):
     id=user.id
     db=sqlite3.connect('user.sqlite')
     cursor=db.cursor()
@@ -340,8 +420,8 @@ async def info(ctx, user:discord.User):
         await ctx.send(f"{get[1]}的資訊:\nHP:{get[2]}/{get[17]}\n攻擊:{get[3]+base.wpnatk(id)}(+{wpnatk})\n命中率:{get[4]+base.wpnaccy(id)}\n防禦:{get[5]}\n珂爾:{get[14]}\n裝備武器:{base.wpn(id)}\n殺人數:{get[18]}")
     elif wpnatk != 0 and wpnaccy != 0:
         await ctx.send(f"{get[1]}的資訊:\nHP:{get[2]}/{get[17]}\n攻擊:{get[3]+base.wpnatk(id)}(+{wpnatk})\n命中率:{get[4]+base.wpnaccy(id)}(+{wpnaccy})\n防禦:{get[5]}\n珂爾:{get[14]}\n裝備武器:{base.wpn(id)}\n殺人數:{get[18]}")
-@info.error
-async def info_on_error(ctx, error):
+@infotext.error
+async def infotext_on_error(ctx, error):
     id=ctx.author.id
     db=sqlite3.connect('user.sqlite')
     cursor=db.cursor()
@@ -381,7 +461,19 @@ async def giveMoney(ctx, arg, user:discord.User):
 @cardinal.command()
 async def system(ctx,*args):
     if ctx.author.id == 611418694245154847 and args[0] == "command":
-        if args[1] == "手動輸入資料":
+        if args[1] == 'exp test':
+            db = sqlite3.connect("user.sqlite")
+            c=db.cursor()
+            exp=base.exp(ctx.author.id)
+            c.execute('UPDATE user SET exp=? WHERE user_id=?',(exp+1,ctx.author.id))
+            db.commit()
+            print(base.exp(ctx.author.id))
+        elif args[1] == 'sqltest':
+            db = sqlite3.connect("user.sqlite")
+            c=db.cursor()
+            args[2]
+            db.commit()            
+        elif args[1] == "手動輸入資料":
             db = sqlite3.connect("user.sqlite")
             cursor = db.cursor()
             sql = ("INSERT INTO user(user_id, username, hp, atk, accy, def, position, item, exp, level, guild, isGuildMaster,marryname, marryid, money, hplimit, killc, wpn) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)")
@@ -396,6 +488,12 @@ async def system(ctx,*args):
                 cursor.execute(f"UPDATE user SET {args[3]}=? WHERE user_id=?",(None,args[4]))
                 db.commit()
                 await ctx.send(f"已更改OBJECTID:{args[4]} 資料:{args[3]}")
+            elif args[2] != "NONE":
+                db = sqlite3.connect("user.sqlite")
+                cursor = db.cursor()
+                cursor.execute(f"UPDATE user SET {args[3]}=? WHERE user_id=?",(0,args[4]))
+                db.commit()
+                await ctx.send(f"已更改OBJECTID:{args[4]} 資料:{args[3]}")                
         elif args[1] == "DELETE":
             db = sqlite3.connect("user.sqlite")
             cursor = db.cursor()
@@ -404,11 +502,53 @@ async def system(ctx,*args):
             await ctx.send(f"已移除物體")                        
     else:
         await ctx.send("你沒有權限")
-
+@cardinal.command()
+async def bartest(ctx):
+    wanted=base.hp/100
+    background=Image.open('bartest.png','r')
+    img=Image.open('bar.png','r') 
+    x=19
+    while wanted >0:
+        offset = (x,52)
+        background.paste(img, offset)
+        x+=13
+        wanted-=0.125
+    await ctx.send(file=discord.File(f'{background}'))
+    background.show()
+@cardinal.event
+async def on_message(message):
+    db=sqlite3.connect('user.sqlite')
+    c=db.cursor()
+    await cardinal.process_commands(message)
+    if message.author!=cardinal.user:
+        hp=base.hp(message.author.id)
+        combowait=base.combowait(message.author.id)
+        if hp <= 0:
+            await message.channel.send("https://cdn.discordapp.com/attachments/734664576259457074/740555409399611402/YDr4cj6.png")
+            c.execute(f"DELETE FROM user WHERE user_id={message.author.id}")
+            role = discord.utils.get(message.guild.roles, name="死亡")
+            await message.author.add_roles(role)
+            role = discord.utils.get(message.guild.roles, name="存活")
+            await message.author.remove_roles(role)
+        if combowait==0:
+            c.execute("UPDATE user SET combo=? WHERE user_id=?",(0,message.author.id))
+            db.commit()
+            combo=base.combo(message.author.id) 
+        elif message.content.startswith("SAO attack") and combowait == 1:
+            combo=base.combo(message.author.id)
+            c.execute("UPDATE user SET combo=? WHERE user_id=?",(combo+1,message.author.id))
+            db.commit()
+            combo=base.combo(message.author.id)
+@cardinal.command()
+async def fish(ctx,arg):
+    if arg=="v1":
+        pass
+    elif arg == "v2":
+        pass
 try:
     loop = asyncio.get_event_loop()
-    loop.create_task(cardinal.start("我才不告訴你勒"))
-    loop.create_task(crystaln.start("我才不告訴你勒"))
+    loop.create_task(cardinal.start("NzI0ODg0ODg3NjgwNzEyNzc1.XvGrqA.-l9QStRj8qJ7v_ztLoPq9MZq95s"))
+    loop.create_task(crystaln.start("NzM3MzMzMjI5MzU0MjIxNjc4.Xx71FA.HT7w5bD6wUxd8-39j7UeCyCjoZw"))
     loop.run_forever()
 except KeyboardInterrupt:
     loop.close()

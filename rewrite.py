@@ -5,6 +5,7 @@ import asyncio
 from PIL import Image, ImageDraw, ImageFont
 import requests
 from io import BytesIO
+
 cardinal = commands.Bot(command_prefix="SAO ")
 crystaln = commands.Bot(command_prefix="NPCC ")
 cardinal.remove_command('help')
@@ -49,8 +50,8 @@ async def test_on_error(ctx,error):
         await ctx.send("\❗此玩家不存在\❗")
 try:
     loop = asyncio.get_event_loop()
-    loop.create_task(cardinal.start("我才不告訴你勒"))
-    loop.create_task(crystaln.start("我才不告訴你勒"))
+    loop.create_task(cardinal.start("NzI0ODg0ODg3NjgwNzEyNzc1.XvGrqA.-l9QStRj8qJ7v_ztLoPq9MZq95s"))
+    loop.create_task(crystaln.start("NzM3MzMzMjI5MzU0MjIxNjc4.Xx71FA.HT7w5bD6wUxd8-39j7UeCyCjoZw"))
     loop.run_forever()
 except KeyboardInterrupt:
     loop.close()
